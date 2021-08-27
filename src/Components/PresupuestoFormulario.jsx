@@ -4,7 +4,6 @@ import shortid from "shortid";
 import "../Styles/presupuestoFormulario.css";
 
 const PresupuestoFormulario = ({
-  presupuesto,
   showErrorMessage,
   setShowErrorMessage,
   errorMessage,
@@ -113,6 +112,10 @@ PresupuestoFormulario.propTypes = {
   errorMessage: PropTypes.string.isRequired,
   showErrorMessage: PropTypes.bool,
   agregarNuevoGasto: PropTypes.func.isRequired,
+  setShowErrorMessage: PropTypes.func.isRequired,
+  setErrorMessage: PropTypes.func.isRequired,
+  setRestante: PropTypes.func.isRequired,
+  restante: PropTypes.number.isRequired,
 };
 
 export default PresupuestoFormulario;

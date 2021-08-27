@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "../Styles/nuevoGasto.css";
 
 const NuevoGasto = (props) => {
@@ -11,6 +12,12 @@ const NuevoGasto = (props) => {
       <h4 className="costo">{`-${monto.toFixed(2)}`}</h4>
     </div>
   );
+};
+
+NuevoGasto.protoTypes = {
+  gasto: PropTypes.object.isRequired,
+  monto: PropTypes.number.isRequired,
+  descripcion: PropTypes.string.isRequired,
 };
 
 export default NuevoGasto;

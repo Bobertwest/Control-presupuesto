@@ -26,7 +26,6 @@ function App() {
           <Formulario
             setPrimeraPregunta={setPrimeraPregunta}
             setPresupuesto={setPresupuesto}
-            presupuesto={presupuesto}
             showErrorMessage={showErrorMessage}
             setShowErrorMessage={setShowErrorMessage}
             errorMessage={errorMessage}
@@ -36,7 +35,6 @@ function App() {
         ) : (
           <div className="presupuesto">
             <PresupuestoFormulario
-              presupuesto={presupuesto}
               setPresupuesto={setPresupuesto}
               showErrorMessage={showErrorMessage}
               setShowErrorMessage={setShowErrorMessage}

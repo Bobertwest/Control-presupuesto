@@ -5,7 +5,6 @@ import "../Styles/Formulario.css";
 const Formulario = ({
   setPrimeraPregunta,
   setPresupuesto,
-  presupuesto,
   errorMessage,
   setErrorMessage,
   showErrorMessage,
@@ -64,7 +63,12 @@ const Formulario = ({
 
 Formulario.propTypes = {
   errorMessage: PropTypes.string.isRequired,
-  showErrorMessage: PropTypes.bool,
+  showErrorMessage: PropTypes.bool.isRequired,
+  setPrimeraPregunta: PropTypes.func.isRequired,
+  setPresupuesto: PropTypes.func.isRequired,
+  setErrorMessage: PropTypes.func.isRequired,
+  setShowErrorMessage: PropTypes.func.isRequired,
+  setRestante: PropTypes.func.isRequired,
 };
 
 export default Formulario;
