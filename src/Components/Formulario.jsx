@@ -51,7 +51,7 @@ const Formulario = ({
           type="number"
           step="0.01"
           className="budget"
-          placeholder="Colocar presupuesto semanal"
+          placeholder="Colocar presupuesto..."
           onChange={obtenerCantidad}
         />
         <p className="errormessage">{showErrorMessage ? errorMessage : null}</p>
