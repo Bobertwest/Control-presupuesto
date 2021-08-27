@@ -1,0 +1,83 @@
+.addContainer {
+  width: 35%;
+  height: auto;
+}
+
+.addContainer .addTitle {
+  color: #1e50e4;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.addContainer .tituloInput {
+  margin: 0;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.addContainer input[type="text"],
+.addContainer [type="number"] {
+  width: 90%;
+  border: none;
+  background-color: #9df2ff;
+  border-radius: 10px;
+  outline: none;
+  height: 15%;
+  padding-left: 10px;
+}
+
+.addContainer input[type="submit"] {
+  width: 90%;
+  padding: 10px;
+  border: #2a2aff;
+  background-color: #2a2aff;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  outline: none;
+  color: white;
+  margin-bottom: 20%;
+}
+
+.addContainer input[type="submit"]:disabled {
+  background-color: rgba(42, 42, 255, 0.5);
+}
+
+.addContainer .errormessage {
+  color: red;
+  font-family: "poppis", sans-serif;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 768px) {
+  .addContainer input[type="submit"] {
+    margin-bottom: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .addContainer {
+    width: 100%;
+    text-align: center;
+    border: solid 2px #bdbdbd;
+    border-radius: 20px;
+    margin-bottom: 50px;
+  }
+  .addContainer .addTitle {
+    text-align: left;
+    padding-left: 5%;
+  }
+  .addContainer .tituloInput {
+    text-align: left;
+    padding-left: 5%;
+  }
+  .addContainer input[type="text"],
+  .addContainer [type="number"] {
+    height: 50px;
+  }
+  .addContainer input[type="submit"] {
+    margin-bottom: 5%;
+  }
+}
+/*# sourceMappingURL=presupuestoFormulario.css.map */

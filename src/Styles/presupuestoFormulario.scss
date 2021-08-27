@@ -1,0 +1,81 @@
+.addContainer {
+  width: 35%;
+  height: auto;
+  .addTitle {
+    color: rgb(30, 80, 228);
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    margin-bottom: 30px;
+  }
+  .tituloInput {
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+  }
+  input[type="text"],
+  [type="number"] {
+    width: 90%;
+    border: none;
+    background-color: rgb(157, 242, 255);
+    border-radius: 10px;
+    outline: none;
+    height: 15%;
+    padding-left: 10px;
+  }
+  input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    border: rgb(42, 42, 255);
+    background-color: rgb(42, 42, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    outline: none;
+    color: white;
+    margin-bottom: 20%;
+  }
+  input[type="submit"]:disabled {
+    background-color: rgba(42, 42, 255, 0.5);
+  }
+  .errormessage {
+    color: red;
+    font-family: "poppis", sans-serif;
+    font-weight: normal;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+  .addContainer {
+    input[type="submit"] {
+      margin-bottom: 30%;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .addContainer {
+    width: 100%;
+    text-align: center;
+    border: solid 2px rgb(189, 189, 189);
+    border-radius: 20px;
+    margin-bottom: 50px;
+    .addTitle {
+      text-align: left;
+      padding-left: 5%;
+    }
+    .tituloInput {
+      text-align: left;
+      padding-left: 5%;
+    }
+    input[type="text"],
+    [type="number"] {
+      height: 50px;
+    }
+    input[type="submit"] {
+      margin-bottom: 5%;
+    }
+  }
+}

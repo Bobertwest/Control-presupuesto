@@ -1,0 +1,64 @@
+.gastosContainer {
+  width: 65%;
+  border-left: solid 1px rgb(189, 189, 189);
+  .gastosTitle {
+    color: rgb(30, 80, 228);
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
+  .presupuestoActual {
+    text-align: right;
+    padding: 15px;
+    font-weight: normal;
+    font-family: "Poppins", sans-serif;
+    margin: 0 20px;
+    background-color: rgba(0, 0, 255, 0.462);
+    border: solid 2px blue;
+  }
+  h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    text-align: right;
+    margin: 20px;
+    padding: 15px;
+  }
+  .rojo {
+    background-color: rgba(255, 0, 0, 0.462);
+    border: solid 2px red;
+  }
+  .amarillo {
+    background-color: rgba(255, 255, 0, 0.462);
+    border: solid 2px yellow;
+  }
+  .verde {
+    background-color: rgba(0, 255, 0, 0.462);
+    border: solid 2px green;
+  }
+  .noGastosMessage {
+    color: red;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .gastosContainer {
+    width: 100%;
+    border: none;
+    .presupuestoActual,
+    h4 {
+      padding: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 327px) {
+  .presupuestoActual,
+  h4 {
+    font-size: 15px;
+    padding: 5px;
+  }
+}

@@ -1,0 +1,72 @@
+.gastosContainer {
+  width: 65%;
+  border-left: solid 1px #bdbdbd;
+}
+
+.gastosContainer .gastosTitle {
+  color: #1e50e4;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.gastosContainer .presupuestoActual {
+  text-align: right;
+  padding: 15px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  margin: 0 20px;
+  background-color: rgba(0, 0, 255, 0.462);
+  border: solid 2px blue;
+}
+
+.gastosContainer h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  text-align: right;
+  margin: 20px;
+  padding: 15px;
+}
+
+.gastosContainer .rojo {
+  background-color: rgba(255, 0, 0, 0.462);
+  border: solid 2px red;
+}
+
+.gastosContainer .amarillo {
+  background-color: rgba(255, 255, 0, 0.462);
+  border: solid 2px yellow;
+}
+
+.gastosContainer .verde {
+  background-color: rgba(0, 255, 0, 0.462);
+  border: solid 2px green;
+}
+
+.gastosContainer .noGastosMessage {
+  color: red;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .gastosContainer {
+    width: 100%;
+    border: none;
+  }
+  .gastosContainer .presupuestoActual,
+  .gastosContainer h4 {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 327px) {
+  .presupuestoActual,
+  h4 {
+    font-size: 15px;
+    padding: 5px;
+  }
+}
+/*# sourceMappingURL=gastos.css.map */

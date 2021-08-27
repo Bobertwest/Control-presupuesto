@@ -1,0 +1,22 @@
+.nuevoGastoContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px rgb(196, 191, 191);
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+  .descripcion {
+    margin: 0;
+    padding: 5px 0;
+    text-transform: capitalize;
+    font-weight: normal;
+  }
+  .costo {
+    margin: 0;
+    background-color: rgb(89, 224, 226);
+    padding: 5px 10px;
+    color: red;
+    font-weight: normal;
+  }
+}

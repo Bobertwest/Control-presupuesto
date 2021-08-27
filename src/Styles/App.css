@@ -1,0 +1,88 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#2e7be6), color-stop(#43b0e6), to(rgba(25, 24, 24, 0.408)));
+  background-image: linear-gradient(to right, #2e7be6, #43b0e6, rgba(25, 24, 24, 0.408));
+}
+
+.App {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.App .pageTitle {
+  text-align: center;
+  margin: 20px;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.App .container {
+  width: 80%;
+  height: auto;
+  background-color: white;
+  padding: 2%;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App .container .presupuesto {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .App .container .presupuesto {
+    display: block;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 594px) {
+  .App .pageTitle {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .App .pageTitle {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .App .pageTitle {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 334px) {
+  .App .pageTitle {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=App.css.map */

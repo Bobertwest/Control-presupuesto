@@ -1,0 +1,142 @@
+.formContainer {
+  background-color: white;
+  width: 100%;
+  padding: 5px;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formContainer .formTitle {
+  text-align: center;
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  color: rgba(112, 112, 248, 0.748);
+}
+
+.formContainer .basicInstructions {
+  color: black;
+  font-style: italic;
+  margin-bottom: 50px;
+  margin-top: 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.formContainer .form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formContainer .form .budget {
+  width: 60%;
+  height: 70px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: rgba(184, 210, 255, 0.578);
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+  color: #09d609;
+  font-size: 30px;
+}
+
+.formContainer .form .errormessage {
+  color: red;
+  font-size: 12px;
+  margin-top: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.formContainer .form .budgetSubmit {
+  width: 60%;
+  margin: 0;
+  padding: 0;
+  padding: 2%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #1ec3ff;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .formContainer .form .budget {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .formContainer .formTitle {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 598px) {
+  .formContainer .formTitle {
+    font-size: 25px;
+  }
+  .formContainer .basicInstructions {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .formContainer .formTitle {
+    font-size: 20px;
+  }
+  .formContainer .form .budget {
+    font-size: 12px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .formContainer .formTitle {
+    font-size: 20px;
+  }
+  .formContainer .basicInstructions {
+    font-size: 10px;
+  }
+  .formContainer .form .budget {
+    padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .formContainer .form .budget {
+    font-size: 10px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .formContainer .formTitle {
+    font-size: 15px;
+  }
+  .formContainer .basicInstructions {
+    font-size: 5px;
+  }
+}
+
+@media screen and (max-width: 285px) {
+  .formContainer .formTitle {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=Formulario.css.map */

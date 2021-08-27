@@ -1,0 +1,29 @@
+.nuevoGastoContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px #c4bfbf;
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.nuevoGastoContainer .descripcion {
+  margin: 0;
+  padding: 5px 0;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+.nuevoGastoContainer .costo {
+  margin: 0;
+  background-color: #59e0e2;
+  padding: 5px 10px;
+  color: red;
+  font-weight: normal;
+}
+/*# sourceMappingURL=nuevoGasto.css.map */
